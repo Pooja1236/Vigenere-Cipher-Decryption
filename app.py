@@ -7,7 +7,7 @@ from collections import Counter
 st.set_page_config(page_title="Unlock the Vigenère Cipher: Decryption & Key Finder", page_icon= ":tada:", layout="wide")
 
 with st.container():
-    st.title("Easily decrypt messages and uncover encryption keys")
+    st.title("Easily decrypt Vigenère Cipher messages and uncover encryption keys")
     st.subheader("Handles large encrypted messages with ease and accuracy.")
     st.write("Decrypt the Vigenère Cipher! Because even scientists need a little mystery in their lives.")
     st.write("[Learn More >](https://www.geeksforgeeks.org/vigenere-cipher/)")
