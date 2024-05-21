@@ -16,7 +16,7 @@ def load_lottiefile(filepath: str):
     with open(filepath, "r") as f:
         return json.load(f)
 
-lottie_coding = load_lottiefile(r"C:\Users\godar\OneDrive\Desktop\Vigenere Cipher Webpage\Animation - 1716145550728.json")
+lottie_coding = load_lottiefile(r"Animation - 1716145550728.json")
 
 def vigenere_decrypt(ciphertext, key):
     decrypted_text = ""
